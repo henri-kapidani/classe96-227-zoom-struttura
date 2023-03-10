@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	height: 3rem;
+	background-color: green;
+}
+
+main {
+	background-color: gold;
+	height: calc(100vh - 3rem - 5rem);
+	overflow-y: auto;
+}
+
+footer {
+	height: 5rem;
+	background-color: brown;
+}
